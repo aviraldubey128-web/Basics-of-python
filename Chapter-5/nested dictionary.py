@@ -5,3 +5,5 @@ profile = {"usnername": "aviral",
       }        
 }
 print(profile["details"]["followers"])
+
+output = 1200
