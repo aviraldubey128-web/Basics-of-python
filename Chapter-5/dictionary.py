@@ -13,3 +13,15 @@ print(detail["city"])
 output1 = 'Aviral'
 Output2 = '19'
 output3 = 'MP'
+
+# Nestes dicitionary
+profile = {"usnername": "aviral", 
+        "details":{
+        "followers": 1200,  
+        "verified":True
+      }        
+}
+print(profile["details"]["followers"])
+
+output = 1200
+
