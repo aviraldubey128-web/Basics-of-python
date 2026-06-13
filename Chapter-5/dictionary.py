@@ -10,3 +10,6 @@ print(detail["age"])
 print(detail["city"])
 
 
+output1 = 'Aviral'
+Output2 = '19'
+output3 = 'MP'
