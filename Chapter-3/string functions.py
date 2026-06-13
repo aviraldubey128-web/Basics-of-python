@@ -10,3 +10,14 @@ print(name.lower())
 print(name.upper())
 print(name.strip()) # remove any leading and trailing whitespace from the string
 print(name.split()) # split the string into a list of words
+
+# 39
+# True
+# 7
+# Adda had an apple at night and got sick
+# 27
+# harry had an apple at NIGHT and got sick
+# adda had an apple at night and got sick
+# ADDA HAD AN APPLE AT NIGHT AND GOT SICK
+# adda had an apple at NIGHT and got sick
+# ['adda', 'had', 'an', 'apple', 'at', 'NIGHT', 'and', 'got', 'sick']
