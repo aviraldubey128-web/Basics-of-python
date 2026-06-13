@@ -42,3 +42,60 @@ greet()
 
 output = '''Hello there, saumya
 Hello there, aviral '''
+
+# None
+
+def greet():
+    print ("Aviral")
+
+result = greet()
+print(result)
+
+Aviral
+None
+
+# variable scope
+
+x= 10 # this is the global variable
+
+def show():
+    x=5 #This is the local variable
+    print("Inside the function", x)
+
+show()
+print("outhside the fumction", x)
+
+output = '''Inside the function 5
+            outhside the fumction 10'''
+
+# parameter and argument 
+def greet(name):
+    print("hello", name)
+
+greet("Aviral") 
+
+def sum(a,b):
+    print("sum=", a+b )
+
+sum(1020302, 3040205)
+
+output = '''hello Aviral
+            sum= 4060507'''
+
+# Recursive function 
+def factorial(n):
+    if  n == 1:
+        return 1
+    return n * factorial(n-1)
+print(factorial(5))
+
+output = '''120'''
+
+# return 
+
+def sum(a,b):
+    return a+b
+result = sum(223, 2233)
+print("Result = ", result)
+
+output = '''Result =  2456'''
