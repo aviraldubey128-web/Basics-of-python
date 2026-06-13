@@ -11,3 +11,7 @@ print("character1: " + character1)
 
 namelength = len(name) # length of the string
 print("length of name: " + str(namelength))
+
+#nameshort: Avi
+#character1: i
+# lenght of the name: 6
