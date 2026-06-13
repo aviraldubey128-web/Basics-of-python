@@ -1,0 +1,43 @@
+Python notes
+
+1.print("")-> will print the sentence
+2.REPL-> read evalute print loop
+
+External Module->
+(i)Pandas- Data analysis 
+           Manages large datasets 
+           Offering tools for data cleaning 
+           Transformation and analysis
+
+(ii) pyttsx3 
+import pyttsx3
+engine = pyttsx3.init()
+
+engine.say("I will speak this text")
+engine.runAndWait()
+
+OS module
+let your Python program communicate with the operating system
+Without os, Python cannot easily:
+
+access folders
+create files
+rename things
+check paths
+run system commands
+work with environment settings
+
+
+import os
+
+# Path of the directory
+path = "."
+
+# List all files and folders
+contents = os.listdir(path)
+
+# Print each item
+for item in contents:
+    print(item)
+
+

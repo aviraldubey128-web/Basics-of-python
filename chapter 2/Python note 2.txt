@@ -1,0 +1,120 @@
+Variable and datatype
+
+Variable is a name to a memory location in a progam.
+
+Datatypes 	
+Integers
+floating point numbers 
+strings 
+booleans 
+none
+
+Rules for defining a variable name
+A variable name can contain alphabtes, digits and underscores
+A variable name can't start with a digit 
+A variable name can only start with an alphabet and underscores 
+NO while space is allowed to be used inside a variable
+
+@name = is invalid 
+na_me = is invalid 
+
+
+OPERATORS IN PYTHON 
+
+(% is a module operator)
+Arithamic operators "+ - / *" 
+Assigment operators "= += -="
+
+
+To find average 
+average = a+b/2
+
+print("The average of a and b is:", average)
+
+To find the square of a number
+
+Method 1:
+
+n = 5
+square = n * n
+
+print(square)
+
+Method 2
+n = 5
+square = n ** 2
+
+print(square)
+
+**note that square is not necessarily been written
+
+Comparison operatorsa "== > >= < !="
+
+c= a < b # Less than
+print(c)
+
+c= a > b # Greater than
+print(c)
+
+c= a == b # Equal to
+print(c)
+
+c= a != b # Not equal to
+print(c)
+
+Logical operators "and or not"
+c = a and b # Logical AND
+print(c)
+
+c= a or b # Logical OR
+print(c)
+
+c= not a # Logical NOT
+print(c)
+
+e = True or False 
+print("True or False:", True or False)
+print("True or True:", True or True)
+print("False or True:", False or True)
+print("False or False:", False or False)
+
+Type function is used to find the data type of a given variable in python 
+
+ex:
+a=433
+t = type(a) # class <int>
+print (t)
+
+c= 3.14
+n = type(c) # class <float> 
+print(n)
+
+b = "Hello World"
+s = type(b) # class <str>   
+print(s)
+
+A number can be converted into a string and vice versa (if possible)
+
+There are many functions to convert one data type into another
+ex:
+s = "122"
+p = float(s) # class <float>
+
+print(type(p)) # class <float>
+
+
+Input function allows the user to take input from the keyboard as astring
+a = input("Enter a number 1 ") If a is string, the user entered string
+
+b = input("Enter a number 2 ")
+It is important to note that the output of input is always a string
+
+a = int(input("Enter a number 1 "))
+
+b = int(input("Enter a number 2 "))
+
+print("Number a is: ", a)
+print("Number b is: ", b)
+print("Sum of a and b is: ", a + b)
+
+
