@@ -32,3 +32,13 @@ def division():
 division()
 
 output = '''THE DIVISION OF e AND f 0.6583850931677019'''
+
+# defaut argument
+def greet(name = "aviral"):
+    print("Hello there,", name)
+
+greet("saumya")
+greet()
+
+output = '''Hello there, saumya
+Hello there, aviral '''
