@@ -1,9 +1,13 @@
 name = "aviral"
 
 print(name[0:3])
-nameshort = name[-4:-1]
 
+nameshort = name[-4:-1]
 nameshort2 = name[2:5]
+
+''' Both nameshort and nameshort1 are for the same range 
+for [-4:-1] and [2:5]
+                                                        '''
 
 print(nameshort)
 print(nameshort2)
